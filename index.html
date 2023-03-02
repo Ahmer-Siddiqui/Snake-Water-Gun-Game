@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Snake , Water & Gun Game</title>
+  </head>
+  <body>
+    <h1>Snake , Water & Gun Game</h1>
+    <div id="main">
+
+      <div id="userPortion">
+        <h2>User choice</h2>
+      <div id="userSelect">
+        <div>
+          <img src="snake.jpg"  onclick="choice('snake')" alt="snake">
+        </div>
+        <div>
+          <img src="water.jpg" onclick="choice('water')" alt="water">
+        </div>
+        <div>
+          <img src="Gun.jpeg"  onclick="choice('gun')" alt="gun">
+        </div>
+      </div>
+    </div>
+
+    
+    <div id="scorePortion">
+      <h2>Score Counter</h2>
+      <div id="scoreCounter">
+        <div id="userScores">
+          UserScore: <span id="u-Score"></span>
+        </div>
+        <div id="final"></div>
+        <div id="computerScores">
+          ComputerScore: <span id="c-Score"></span>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div id="computerPortion">
+      <h2>Computer choice</h2>
+      <div id="computerSelect">
+        <div>
+          <img src="snake.jpg" id="snake"  alt="snake" >
+          <img src="water.jpg" id="water"  alt="water" >
+          <img src="Gun.jpeg" id="gun" alt="gun" > 
+              </div>
+            </div> 
+          </div>
+          
+          
+        </div>
+          
+          
+          
+          <script src="app.js"></script>
+        </body>
+        </html>
+        
